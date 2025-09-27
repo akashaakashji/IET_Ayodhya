@@ -1,0 +1,1025 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ...........................NAVBAR....................... */
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 45%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.nav-list {
+    width: 85%;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 40px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-list li a:hover {
+    color: gray;
+}
+
+.rightNav {
+    width: 25%;
+    margin-top: 2%;
+    text-align: right;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../IMG/campus\ 1.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}
+
+
+/* .........................................HEADER PART................................ */
+
+.firstSection {
+    height: 100vh;
+    width: 100%;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 42px;
+}
+
+.text-small {
+    font-size: 18px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3PX;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+/* ..................................Our services....................... */
+
+.secondSection {
+    padding: 5vh;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 60px;
+}
+
+.secondSection h1 {
+    text-transform: capitalize;
+    padding: 2vh;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 70px;
+}
+
+.secondSection p {
+    font-size: 30px;
+}
+
+.secondSection a {
+    margin-top: 3vh;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    border: 1px solid rgb(5, 5, 5);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid #fc5879;
+    background: #f05876;
+    transition: 1s;
+}
+
+.hero-btns {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(250, 248, 248);
+    border: 1px solid rgb(247, 245, 245);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btns:hover {
+    border: 1px solid #fc5879;
+    background: #f05876;
+    transition: 1s;
+}
+
+
+/* ................................... */
+/*..........................corner....................*/
+.corner {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.corner-col {
+    flex-basis: 44%;
+    border-radius: 19px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #f7a6a6;
+    padding: 25px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.corner-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+    border: 2px solid;
+
+}
+
+.corner-col p {
+    padding: 0;
+}
+
+.corner-col li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+.corner-col li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.corner h1 {
+    font-size: 70px;
+}
+
+
+/*........................call to contact.......................*/
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(IMG/im3.jpeg);
+    background-position: center;
+    background-color: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta h1 {
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+
+
+
+/*............................................footer............................*/
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.footer .fc {
+    margin: 2%;
+    border: 1px solid;
+    background-color: aliceblue;
+}
+
+.icon {
+    margin: 2%;
+    border: 2px solid;
+    background-color: lightcyan;
+}
+
+.icon .a .fa {
+    color: blue;
+    margin: 0 19px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.icon .b .fa {
+    color: #f44366;
+    margin: 0 19px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o {
+    color: #f44366;
+}
+
+.footers {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 25px;
+}
+
+.footer p {
+    margin: 2%;
+    font-size: 50px;
+    padding: 2%;
+}
+
+.footnav {
+    display: inline-flex;
+    align-items: center;
+}
+
+.footnav li {
+    list-style: none;
+    padding: 20px;
+}
+
+.footnav li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footnav li a:hover {
+    color: gray;
+}
+
+/* ..................................blog page............................................... */
+.blogs1 {
+    text-align: center;
+    background-color: azure;
+    margin: 2%;
+    border: 1px solid #333;
+    padding: 3vh;
+}
+
+.blogs1 h1 {
+    padding: 2vh;
+    color: #23055b;
+}
+
+.blogs1 p {
+    padding: 2vh;
+    /* color: #23055b; */
+}
+
+/* .....................................courses................................ */
+.course-s1 {
+    margin: 2%;
+    padding: 3%;
+    border: 2px solid;
+    background-color: antiquewhite;
+}
+
+.akash {
+    display: flex;
+}
+
+.akash1 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.course-s1 h2 {
+    text-align: center;
+    padding: 2%;
+    font-size: 50px;
+}
+
+.cour {
+    text-align: center;
+    border: 2px solid;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 6px 0px 6px 15px;
+}
+
+.cour:hover {
+    border: 2px solid blue;
+    background: #f05876;
+    transition: 1s;
+}
+
+.courseb {
+    border: 2px solid;
+    border-radius: 10px 10px 10px 10px;
+    padding: 2%;
+    margin: 1%;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.cour li {
+    
+    margin: 10px;
+    padding: 1px;
+    /* border: 1px solid royalblue; */
+}
+
+.cour li a {
+    color: blue;
+    font-size: 16px;
+}
+.syll {
+    margin: 2%;
+    margin-top: 3%;
+    padding: 3%;
+    border: 2px solid;
+    background-color: rgb(158, 232, 255);
+}
+
+.syll h2 {
+    text-align: center;
+    padding: 2%;
+    font-size: 50px;
+}
+
+.syll p {
+    text-align: center;
+    padding: .5%;
+    font-size: 50px;
+}
+
+
+/*...........................About Page.............................*/
+
+
+.director-message {
+    text-align: center;
+    padding: 2%;
+    font-size: 30px;
+    color: #23055b;
+}
+
+.director {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 2%;
+    background-color: white;
+}
+
+.aboutfirst {
+    /* width: 80%; */
+    /* margin: auto; */
+    /* padding: 5%; */
+    text-align: center;
+
+    flex: 1;
+
+}
+
+.aboutsec {
+    /* width: 30%; */
+    /* padding: 5%; */
+    /* text-align: left; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutsec img {
+    height: 220px;
+    width: 220px;
+    /* margin: 0; */
+    /* padding: 0; */
+    border: 2px solid black;
+    border-radius: 20px;
+    /* position: relative; */
+    overflow: hidden;
+    transition: all ease 1s;
+
+    box-shadow: 0 4px 10px rgb(6, 6, 6);
+
+}
+
+.aboutsec img:hover {
+    scale: 1.5;
+    border: 2px solid rgb(6, 143, 79);
+}
+
+.c {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.c .a .fa {
+    color: blue;
+    margin: 0 19px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 30px;
+}
+
+.c .b .fa {
+    color: red;
+    margin: 0 19px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 30px;
+}
+
+.c {
+    display: block;
+}
+
+.aboutfirst h4 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.aboutfirst h6 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.aboutfirst h2 {
+    text-align: center;
+    font-size: 80px;
+}
+
+
+/*........................................contact us................................*/
+.conus {
+    text-align: center;
+    padding: 3%;
+
+}
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    border: 2px solid;
+
+
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+
+    flex-basis: 48%;
+    margin: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+    font-size: 29px;
+    color: #f44366;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.form {
+    padding: 2%;
+    margin: 1%;
+    border: 2px solid;
+}
+
+ul {
+    text-align: center;
+    padding: 1%;
+}
+
+.form h2 {
+    padding: 3%;
+    margin: 3%;
+    font-size: 35px;
+}
+
+.form p {
+    padding: 1%;
+    margin: 5%;
+}
+
+.form a {
+    border: 2px solid;
+    padding: 2%;
+    margin: 3%;
+}
+
+.form a:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+/* ...............................................responsive.................................. */
+/* @media (max-width: 1550px) {
+    .director-img {
+        height: 32Vh;
+        margin: 0;
+        padding: 0;
+        border: 2px solid black;
+        border-radius: 50px;
+        overflow: hidden;
+        transition: all ease 1s;
+    }
+} */
+
+
+
+@media (max-width: 1366px) {
+    .akash1 {
+        display: block;
+    }
+
+    /* .director-img {
+        height: 28Vh;
+        margin: 0;
+        padding: 0;
+        border: 2px solid black;
+        border-radius: 50px;
+        overflow: hidden;
+        transition: all ease 1s;
+    } */
+
+    .aboutfirst li h4 {
+
+        font-size: 30px;
+    }
+
+    .aboutfirst li h2 {
+
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 474px;
+        flex-direction: column;
+        transition: all 2s ease-out;
+    }
+
+    .rightNav {
+        display: none;
+    }
+
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav {
+        height: 72px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .row {
+        margin-top: 5%;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+    .akash {
+        display: block;
+    }
+
+    .akash1 {
+        display: flex;
+    }
+
+    .course-s1 h2 {
+        text-align: center;
+        padding: 2%;
+        font-size: 30px;
+    }
+
+    .syll p,
+    h2 {
+        text-align: center;
+        padding: 2%;
+        font-size: 30px;
+    }
+
+
+
+    /* aaaaaaaaaaaakkkkkkkkaaaaaaasssssssshhhhhhhhh */
+    .courseb {
+        border: 2px solid;
+        border-radius: 10px 10px 10px 10px;
+        padding: 5%;
+        margin: 1%;
+        background-color: white;
+    }
+
+    .secondSection h1 {
+        text-transform: capitalize;
+        padding: 2vh;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        font-size: 30px;
+    }
+
+    .secondSection p {
+        font-size: 20px;
+    }
+
+
+    .footer h4 {
+        font-size: 40px;
+    }
+
+    .footer p {
+        font-size: 20px;
+    }
+
+    /* .director-img {
+        height: 17Vh;
+        margin: 0;
+        padding: 0;
+        border: 2px solid black;
+        border-radius: 40px;
+        overflow: hidden;
+        transition: all ease 1s;
+    } */
+
+    .aboutsec img {
+        height: 150px;
+        width: 150px;
+        border: 2px solid black;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all ease 1s;
+
+        box-shadow: 0 4px 10px rgb(6, 6, 6);
+
+    }
+
+    .aboutsec img:hover {
+        scale: 1.09;
+        border: 2px solid rgb(6, 143, 79);
+
+    }
+
+
+    .aboutfirst h4 {
+
+        font-size: 25px;
+    }
+
+    .aboutfirst h6 {
+
+        font-size: 20px;
+    }
+
+    .aboutfirst h2 {
+
+        font-size: 35px;
+    }
+
+    .c {
+        display: flex;
+        text-align: center;
+    }
+
+    .c .a .fa {
+        color: blue;
+        margin: 0 10px;
+        cursor: pointer;
+        padding: 10px 0;
+        font-size: 30px;
+    }
+
+    .c .b .fa {
+        color: red;
+        margin: 0 10px;
+        cursor: pointer;
+        padding: 10px 0;
+        font-size: 30px;
+    }
+
+}
+
+/* 
+@media (max-width: 700px) {
+
+    .director-img {
+        height: 15Vh;
+        margin: 0;
+        padding: 0;
+        border: 2px solid black;
+        border-radius: 45px;
+        overflow: hidden;
+        transition: all ease 1s;
+    }
+
+    .abouticon .a .fa {
+        font-size: 23px;
+    }
+
+    .abouticon .b .fa {
+        font-size: 23px;
+    }
+
+    .abouticon h4 {
+        font-size: 22px;
+    }
+
+    .aboutfirst li h4 {
+
+        font-size: 22px;
+    }
+
+    .aboutfirst li h2 {
+
+        font-size: 30px;
+    }
+
+    .abouticon .c {
+        display: flex;
+        padding-left: 10%;
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .abouticon .c {
+        display: flex;
+        padding-left: 7%;
+
+    }
+} */
+
+
+
+/* Responsive Styles */
+@media (max-width: 440px) {
+    .footnav {
+        display: inline;
+        align-items: start;
+    }
+
+    .footnav li {
+        list-style: none;
+        padding: 2px;
+    }
+
+    .row {
+        margin-top: 5%;
+        display: inline;
+        justify-content: space-between;
+    }
+
+    .course-s1 h2 {
+        text-align: center;
+        padding: 2%;
+        font-size: 19px;
+    }
+
+    .syll p,
+    h2 {
+        text-align: center;
+        padding: 2%;
+        font-size: 19px;
+    }
+
+    .secondSection h1 {
+        font-size: 21px;
+    }
+
+    .secondSection p {
+        font-size: 16px;
+    }
+
+    .footer h4 {
+        font-size: 25px;
+    }
+
+    .footer p {
+        font-size: 16px;
+    }
+
+
+    .corner h1 {
+        font-size: 30px;
+        margin-bottom: 3px;
+        padding-bottom: 30px;
+    }
+
+    /* .director-img {
+        height: 10Vh;
+        margin: 0;
+        padding: 0;
+        border: 2px solid black;
+        border-radius: 25px;
+        overflow: hidden;
+        transition: all ease 1s;
+    } */
+
+    .c {
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .c .a .fa {
+        font-size: 18px;
+    }
+
+    .c .b .fa {
+        font-size: 18px;
+    }
+
+    .aboutsec img {
+        height: 120px;
+        width: 120px;
+        border: 2px solid black;
+        border-radius: 15px;
+        overflow: hidden;
+        transition: all ease 1s;
+
+        box-shadow: 0 4px 10px rgb(6, 6, 6);
+
+    }
+
+
+}
