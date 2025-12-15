@@ -72,6 +72,8 @@ html {
     background: rgba(0, 0, 0, 0.7) url('../IMG/campus\ 1.jpeg');
     background-size: cover;
     background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .btn-sm {
@@ -1024,3 +1026,4 @@ ul {
 
 
 }
+
