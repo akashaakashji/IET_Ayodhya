@@ -163,6 +163,14 @@ html {
     vertical-align: middle;
 }
 
+/*...............................Adsterra ads ............................*/
+
+.ad-box {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
 /* ..................................Our services....................... */
 
 .secondSection {
@@ -1026,4 +1034,5 @@ ul {
 
 
 }
+
 
