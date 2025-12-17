@@ -27,7 +27,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1000;
     width: 100%;
@@ -1036,6 +1036,7 @@ ul {
 
 
 }
+
 
 
 
